@@ -1,5 +1,8 @@
 const mongoose = require("mongoose");
-const mongoUri = "mongodb+srv://prasad:prasad@foodydatabase.bugz4en.mongodb.net/foodydb?retryWrites=true&w=majority"
+
+//Modify the Mongodb URL (Use mongodb atlas) 
+//Keep foodydb between /? in the URL
+const mongoUri = "mongodb+srv://  modify here  /foodydb?retryWrites=true&w=majority"
 
 const dbConnect = async () => {
   try {
