@@ -24,7 +24,7 @@ Follow the below steps to run the project:
 ```
 git clone https://github.com/PrasadShet02/Foody-MERN-Stack.git
 ```
-2. Create a MongoDB database named `foodydb` and upload the collections given in the `sampleData` folder. You can use MongoDB Compass or the command-line interface to create the database and upload the collections. (MongoDB Compass is recommended).
+2. Create a MongoDB database named `foodydb` and upload the collections given in the `sampleData` folder, the collection names are `food-category` and `food-items`. You can use MongoDB Compass or the command-line interface to create the database and upload the collections. (MongoDB Compass is recommended).
 
 3. Open the `Mern/foody/backend/db.js` file and enter your MongoDB URL. MongoDB Atlas is recommended.
 
